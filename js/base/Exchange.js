@@ -97,6 +97,7 @@ module.exports = class Exchange {
                 'fetchOrderBooks': false,
                 'fetchOrders': false,
                 'fetchTicker': true,
+                'fetchTickerWs': false,
                 'fetchTickers': false,
                 'fetchTrades': true,
                 'fetchTradingFees': false,
@@ -105,6 +106,7 @@ module.exports = class Exchange {
             'urls': {
                 'logo': undefined,
                 'api': undefined,
+                'ws': undefined,
                 'www': undefined,
                 'doc': undefined,
                 'fees': undefined,
